@@ -1,0 +1,153 @@
+body{
+    background-image: url(./img/fondo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.contein{
+    display: grid;
+    grid-template: 200px 350px 200px / repeat(3, 1fr);
+}
+
+.item{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-image: url(./img/estrella\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+
+.item h1{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'El Messiri', sans-serif;
+    align-self: center;
+}
+
+.item #pri{
+    font-size: 23px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.item #seg{
+    width: 80px;
+    font-size: 23px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.item #ter{
+    width: 80px;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.form{
+    grid-column: 1 / 4;
+}
+
+
+.item2{
+    padding: 10px;
+    display: grid;
+    grid-template: 170px 160px / repeat(4, 0.3fr);
+}
+
+.item2 div{
+ 
+}
+
+.log{
+    background-color: rgba(255, 255, 255, 0.61);
+    border-radius: 0px 0px 0px 80px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    border-top: 1px solid black;
+}
+
+.log a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+    align-self: center;
+    color: black;
+    padding: 62px 63px 62px 63px;
+    font-weight: 900;
+}
+
+.log a:hover{
+    transition: all .3s ease;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+}
+
+
+.regis{
+    background-color: rgba(255, 255, 255, 0.61);
+    border-radius: 0px 0px 80px 0px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.regis a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+    align-self: center;
+    color: black;
+    font-weight: 900;
+    padding: 61px 78px 61px 79px;
+}
+
+.regis a:hover{
+    transition: all .3s ease;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+}
+
+.titulo{
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    background-color: rgba(255, 255, 255, 0.61);
+    border-radius: 80px 80px 0px 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.titulo h1{
+    align-self: center;
+}
+
+.titulo h3{
+    align-self: center;
+    margin-top: -10px;
+}
+
+.letra{
+    background-color: rgba(255, 255, 255, 0.199);
+    display: flex;
+    justify-content: center;
+}
+
+.aside{
+    grid-row: 1 / 3;
+    grid-column: 1 / 2;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.aside2{
+    grid-row: 1 / 3;
+    grid-column: 4 / 5;
+}
+
